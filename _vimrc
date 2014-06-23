@@ -5,16 +5,20 @@ set nocompatible
 set nowrap
 set shiftwidth=4
 set expandtab
+
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
+
 set nobackup
 set nowritebackup
 set noswapfile
+
 behave mswin
 
 colorscheme desert
 
 set diffexpr=MyDiff()
+
 function MyDiff()
   let opt = '-a --binary '
   if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
@@ -38,4 +42,3 @@ function MyDiff()
   endif
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
-
