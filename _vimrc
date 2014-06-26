@@ -9,6 +9,7 @@ set expandtab
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 
+set guifont=Consolas:h9:cANSI
 set nobackup
 set nowritebackup
 set noswapfile
