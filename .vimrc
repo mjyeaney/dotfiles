@@ -13,6 +13,7 @@ set guifont=Consolas:h9:cANSI
 set nobackup
 set nowritebackup
 set noswapfile
+set noundofile
 
 behave mswin
 
