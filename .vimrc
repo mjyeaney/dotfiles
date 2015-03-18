@@ -15,6 +15,8 @@ set nowritebackup
 set noswapfile
 set noundofile
 
+set clipboard=unnamed
+
 behave mswin
 
 colorscheme desert
