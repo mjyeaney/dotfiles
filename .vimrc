@@ -10,5 +10,3 @@ set nowritebackup
 set noswapfile
 set noundofile
 set clipboard=unnamed
-syntax on
-colorscheme desert
