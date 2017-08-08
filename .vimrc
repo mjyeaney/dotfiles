@@ -2,6 +2,7 @@ set ruler
 set nu
 set tabstop=4
 set nocompatible
+set backspace=indent,eol,start
 set nowrap
 set shiftwidth=4
 set expandtab
