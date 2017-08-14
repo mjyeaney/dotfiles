@@ -11,4 +11,5 @@ set nowritebackup
 set noswapfile
 set noundofile
 set clipboard=unnamed
+colorscheme elflord
 syntax on
