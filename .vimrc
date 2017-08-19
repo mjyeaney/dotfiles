@@ -10,6 +10,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 set noundofile
+set smartindent
 set clipboard=unnamed
 colorscheme elflord
 syntax on
